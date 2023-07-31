@@ -5,26 +5,26 @@
 This project uses Pymongo to gather data from non-SQL databases to be able to gather, manipulate and visualize data. The database in question is a json of food safety evaluations of restaurants in the United Kingdom. This data is being evaluated by ratings and hygiene to aid journalists and food critics on where to focus future articles. The intent is to practice gathering, cleaning and saving data from databases with Mongo.
 
 ## Table of Contents
-Resources folder
-- holds the establishments collection in json format
+Resources folder  
+the establishments collection in json format
   
 NoSQL_analysis_starter.ipynb -a jupyter Notebook file containing the actual analysis of the gathered data.
 
 NOSQL_setup_starter.ipynb - a Jupyter Notebook file for pulling the data from the json with Pymongo.
 
 ## Getting Started / Installation
-You will need Mongosh running on your system, 
-then import the dataset with mongoimport with this code:
+You will need Mongosh running on your system,  
+then import the dataset with mongoimport with this code:  
 --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
-This project is created and run via Jupyter Notebook or VS Code. 
+This project is created and run via Jupyter Notebook or VS Code.  
 The following imports within your Jupyter Notebook / VS Code are necessary to complete the project:
 
-To gather the data with Pymongo,
-from pymongo import MongoClient
+To gather the data with Pymongo,  
+from pymongo import MongoClient  
 from pprint import pprint
 
-To analyze the gathered data for information, include pandas.
+To analyze the gathered data for information, include pandas.  
 import pandas as pd
 
 ## Summary 
