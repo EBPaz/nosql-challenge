@@ -15,7 +15,6 @@ You will need Mongosh running on your system, then import the dataset with mongo
  --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
 This project is created and run via Jupyter Notebook or VS Code.
-
 The following imports within your Jupyter Notebook / VS Code are necessary to complete the project:
 
 To gather the data with Pymongo,
@@ -28,8 +27,8 @@ import pandas as pd
 ## Summary 
 During the set-up code, I practiced adding new data to the database collection for a specific restaurant by updating data, deleted the entries for the city of Dover and changed data types to reflect the correct form for analysis.
 
-During the specific analysis, 
-There are 41 food establishments with a hygiene score of 20 (a very poor hygiene rating).
+During the specific analysis, I found there are 41 food establishments with a hygiene score of 20 (a very poor hygiene rating).
+
 There are 33 food establishments in London with a 4 or above on the Rating Scale.
 
 When analyzing the 5 food establishments closest to the new restaurant "Penang Flavours", with a rating value of 5(best) and the lowest(best) hygiene scores, each belong to a different business type (ie: Pub/bar vs. Daycare vs. Fast Food)
