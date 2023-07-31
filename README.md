@@ -11,8 +11,7 @@ NOSQL_setup_starter.ipynb - a Jupyter Notebook file for pulling the data from th
 
 ## Getting Started / Installation
 You will need Mongosh running on your system, then import the dataset with mongoimport with this code:
-
- --type json -d uk_food -c establishments --drop --jsonArray establishments.json
+--type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
 This project is created and run via Jupyter Notebook or VS Code.
 The following imports within your Jupyter Notebook / VS Code are necessary to complete the project:
